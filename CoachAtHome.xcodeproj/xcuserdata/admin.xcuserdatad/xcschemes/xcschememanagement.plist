@@ -7,7 +7,25 @@
 		<key>CoachAtHome.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>842B84FE207D728B00025531</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842B8515207D728D00025531</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842B8520207D728D00025531</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

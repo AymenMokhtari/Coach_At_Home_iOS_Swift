@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3153FEFC59ED440180AF76B5 /* Pods_CoachAtHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4A1962795C4B08ED1B8F69 /* Pods_CoachAtHome.framework */; };
+		8428BB07208DA7E600CC8C33 /* ReservationsCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB06208DA7E600CC8C33 /* ReservationsCoachViewController.swift */; };
 		842B8503207D728B00025531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B8502207D728B00025531 /* AppDelegate.swift */; };
 		842B8505207D728B00025531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B8504207D728B00025531 /* ViewController.swift */; };
 		842B8508207D728B00025531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842B8506207D728B00025531 /* Main.storyboard */; };
@@ -15,6 +17,19 @@
 		842B8510207D728D00025531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842B850E207D728D00025531 /* LaunchScreen.storyboard */; };
 		842B851B207D728D00025531 /* CoachAtHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B851A207D728D00025531 /* CoachAtHomeTests.swift */; };
 		842B8526207D728D00025531 /* CoachAtHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B8525207D728D00025531 /* CoachAtHomeUITests.swift */; };
+		846E38C920926191002C52A7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E38C820926191002C52A7 /* CustomCell.swift */; };
+		847FF11C20815AF400A74F73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF11B20815AF400A74F73 /* HomeViewController.swift */; };
+		847FF11E2081698100A74F73 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF11D2081698100A74F73 /* DBHelper.swift */; };
+		847FF12020816B3500A74F73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF11F20816B3500A74F73 /* User.swift */; };
+		847FF12220822E5C00A74F73 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF12120822E5C00A74F73 /* RegisterViewController.swift */; };
+		847FF124208384C800A74F73 /* TrainerProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF123208384C700A74F73 /* TrainerProfilViewController.swift */; };
+		847FF1262083B4EF00A74F73 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF1252083B4EF00A74F73 /* PostsViewController.swift */; };
+		847FF1282083BCA900A74F73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FF1272083BCA900A74F73 /* Post.swift */; };
+		8483CF3E20878DFB00A514C0 /* CoachHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483CF3D20878DFB00A514C0 /* CoachHomeViewController.swift */; };
+		8483CF402087AAF000A514C0 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8483CF3F2087AAF000A514C0 /* EditProfileViewController.swift */; };
+		84A926AD208507D400738958 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A926AC208507D400738958 /* AddPostViewController.swift */; };
+		84A926AF2085221800738958 /* OnePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A926AE2085221800738958 /* OnePostViewController.swift */; };
+		84F44436208B9BD0004A8B7E /* BookCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F44435208B9BCF004A8B7E /* BookCoachViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E6DE147FAEDF5BDE43792D /* Pods_CoachAtHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachAtHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7E2402970DFF6C365115D4 /* Pods_CoachAtHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachAtHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F63A6EBF4CB687C7977ECD /* Pods-CoachAtHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachAtHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoachAtHome/Pods-CoachAtHome.debug.xcconfig"; sourceTree = "<group>"; };
+		8428BB06208DA7E600CC8C33 /* ReservationsCoachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsCoachViewController.swift; sourceTree = "<group>"; };
 		842B84FF207D728B00025531 /* CoachAtHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachAtHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		842B8502207D728B00025531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842B8502207D728B00025531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		842B8504207D728B00025531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		842B8507207D728B00025531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842B850A207D728B00025531 /* CoachAtHome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoachAtHome.xcdatamodel; sourceTree = "<group>"; };
@@ -49,6 +68,21 @@
 		842B8521207D728D00025531 /* CoachAtHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoachAtHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842B8525207D728D00025531 /* CoachAtHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachAtHomeUITests.swift; sourceTree = "<group>"; };
 		842B8527207D728D00025531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E38C820926191002C52A7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		847FF11B20815AF400A74F73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		847FF11D2081698100A74F73 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		847FF11F20816B3500A74F73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		847FF12120822E5C00A74F73 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		847FF123208384C700A74F73 /* TrainerProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerProfilViewController.swift; sourceTree = "<group>"; };
+		847FF1252083B4EF00A74F73 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		847FF1272083BCA900A74F73 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8483CF3D20878DFB00A514C0 /* CoachHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachHomeViewController.swift; sourceTree = "<group>"; };
+		8483CF3F2087AAF000A514C0 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		84A926AC208507D400738958 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		84A926AE2085221800738958 /* OnePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePostViewController.swift; sourceTree = "<group>"; };
+		84F44435208B9BCF004A8B7E /* BookCoachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoachViewController.swift; sourceTree = "<group>"; };
+		A556B69DF64C900B70D5873F /* Pods-CoachAtHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachAtHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoachAtHome/Pods-CoachAtHome.release.xcconfig"; sourceTree = "<group>"; };
+		DE4A1962795C4B08ED1B8F69 /* Pods_CoachAtHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachAtHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3153FEFC59ED440180AF76B5 /* Pods_CoachAtHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +111,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		812799B95D5CFEE6D5BB2532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A1962795C4B08ED1B8F69 /* Pods_CoachAtHome.framework */,
+				15E6DE147FAEDF5BDE43792D /* Pods_CoachAtHomeTests.framework */,
+				1B7E2402970DFF6C365115D4 /* Pods_CoachAtHomeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		842B84F6207D728B00025531 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +128,8 @@
 				842B8519207D728D00025531 /* CoachAtHomeTests */,
 				842B8524207D728D00025531 /* CoachAtHomeUITests */,
 				842B8500207D728B00025531 /* Products */,
+				9508ECE7A668F4D591EB995B /* Pods */,
+				812799B95D5CFEE6D5BB2532 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +153,20 @@
 				842B850E207D728D00025531 /* LaunchScreen.storyboard */,
 				842B8511207D728D00025531 /* Info.plist */,
 				842B8509207D728B00025531 /* CoachAtHome.xcdatamodeld */,
+				847FF11B20815AF400A74F73 /* HomeViewController.swift */,
+				847FF11D2081698100A74F73 /* DBHelper.swift */,
+				847FF11F20816B3500A74F73 /* User.swift */,
+				847FF12120822E5C00A74F73 /* RegisterViewController.swift */,
+				847FF123208384C700A74F73 /* TrainerProfilViewController.swift */,
+				847FF1252083B4EF00A74F73 /* PostsViewController.swift */,
+				847FF1272083BCA900A74F73 /* Post.swift */,
+				84A926AC208507D400738958 /* AddPostViewController.swift */,
+				84A926AE2085221800738958 /* OnePostViewController.swift */,
+				8483CF3D20878DFB00A514C0 /* CoachHomeViewController.swift */,
+				8483CF3F2087AAF000A514C0 /* EditProfileViewController.swift */,
+				84F44435208B9BCF004A8B7E /* BookCoachViewController.swift */,
+				8428BB06208DA7E600CC8C33 /* ReservationsCoachViewController.swift */,
+				846E38C820926191002C52A7 /* CustomCell.swift */,
 			);
 			path = CoachAtHome;
 			sourceTree = "<group>";
@@ -128,6 +189,15 @@
 			path = CoachAtHomeUITests;
 			sourceTree = "<group>";
 		};
+		9508ECE7A668F4D591EB995B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F63A6EBF4CB687C7977ECD /* Pods-CoachAtHome.debug.xcconfig */,
+				A556B69DF64C900B70D5873F /* Pods-CoachAtHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842B852A207D728D00025531 /* Build configuration list for PBXNativeTarget "CoachAtHome" */;
 			buildPhases = (
+				3D5B81ED51378021F5D7233A /* [CP] Check Pods Manifest.lock */,
 				842B84FB207D728B00025531 /* Sources */,
 				842B84FC207D728B00025531 /* Frameworks */,
 				842B84FD207D728B00025531 /* Resources */,
+				78ADD195283C1757CB1F0D8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +326,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D5B81ED51378021F5D7233A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoachAtHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78ADD195283C1757CB1F0D8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoachAtHome/Pods-CoachAtHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoachAtHome/Pods-CoachAtHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842B84FB207D728B00025531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +382,21 @@
 			files = (
 				842B8505207D728B00025531 /* ViewController.swift in Sources */,
 				842B8503207D728B00025531 /* AppDelegate.swift in Sources */,
+				846E38C920926191002C52A7 /* CustomCell.swift in Sources */,
+				8428BB07208DA7E600CC8C33 /* ReservationsCoachViewController.swift in Sources */,
+				847FF12220822E5C00A74F73 /* RegisterViewController.swift in Sources */,
+				847FF1262083B4EF00A74F73 /* PostsViewController.swift in Sources */,
+				847FF12020816B3500A74F73 /* User.swift in Sources */,
+				847FF124208384C800A74F73 /* TrainerProfilViewController.swift in Sources */,
+				8483CF402087AAF000A514C0 /* EditProfileViewController.swift in Sources */,
+				847FF11E2081698100A74F73 /* DBHelper.swift in Sources */,
 				842B850B207D728B00025531 /* CoachAtHome.xcdatamodeld in Sources */,
+				8483CF3E20878DFB00A514C0 /* CoachHomeViewController.swift in Sources */,
+				84F44436208B9BD0004A8B7E /* BookCoachViewController.swift in Sources */,
+				847FF11C20815AF400A74F73 /* HomeViewController.swift in Sources */,
+				84A926AF2085221800738958 /* OnePostViewController.swift in Sources */,
+				84A926AD208507D400738958 /* AddPostViewController.swift in Sources */,
+				847FF1282083BCA900A74F73 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +567,7 @@
 		};
 		842B852B207D728D00025531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F63A6EBF4CB687C7977ECD /* Pods-CoachAtHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +585,7 @@
 		};
 		842B852C207D728D00025531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A556B69DF64C900B70D5873F /* Pods-CoachAtHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
